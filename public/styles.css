@@ -1,0 +1,63 @@
+.Urlinput{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.container{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+}
+
+.footer{
+    position: relative;
+    bottom: 0;
+}
+
+.urlLists {
+    background-color: rgb(173, 170, 170);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.urlList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.url {
+    text-align: center;
+    list-style: none;
+    border: 1px solid rgb(194, 192, 192);
+    padding: 5px;
+    border-radius: 12px;
+    background-color: rgb(220, 225, 225);
+    width: calc(33.33% - 2px);
+    margin-bottom: 1rem;
+    align-self: flex-start;
+}
+
+h1 {
+    margin-bottom: 1rem; /* Add margin to the bottom of the heading */
+}
+
+.urlDisplay{
+    text-align: center;
+    list-style: none;
+    /* border: 1px solid black; */
+    padding: 5px;
+    border-radius: 12px;
+    /* background-color: rgb(220, 225, 225); */
+    width: calc(33.33% - 2px);
+    margin-bottom: 1rem;
+}
+
+ul{
+    padding-left: 0px;
+}
